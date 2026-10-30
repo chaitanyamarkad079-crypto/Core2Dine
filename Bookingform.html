@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Core2dine.css">
+
+</head>
+
+<body>
+    <header>
+
+        <h1>Hotel Core2dine</h1>
+
+        <h2>Luxury Comfort and Hospitality</h2>
+
+        <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">"your comfort is our
+            priority"</p>
+
+        <a href="homepage.html">Home</a> |
+
+        <a href="roompage.html">Roompage</a> |
+
+        <a href="room-comparism.html">RoomCompare</a> |
+
+        <a href="Bookingform.html">Booking form</a> |
+
+        <a href="restaurantpage.html">Restaurant page</a> |
+
+        <a href="hotelgallery.html">Hotel Gallery</a> |
+
+
+
+        <a href="mediapage.html">Media page</a> |
+
+        <a href="contact.html">Contactinfo</a> |
+
+        <hr>
+
+    </header>
+
+    <main>
+        <h2>Hotel Booking Form</h2>
+        <p>Please provide the required information to complete your hotel reservation.</p>
+
+        <form>
+            <fieldset>
+                <legend>Guest Information</legend>
+
+                <label>Full Name:</label><br>
+                <input type="text" placeholder="Enter your full name"><br><br>
+
+                <label>Email Address:</label><br>
+                <input type="email" placeholder="example@email.com"><br><br>
+
+                <label>Phone Number:</label><br>
+                <input type="tel" placeholder="Enter 10-digit phone number"><br><br>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Stay Details</legend>
+
+                <label>Check-in Date:</label><br>
+                <input type="date"><br><br>
+
+                <label>Check-out Date:</label><br>
+                <input type="date"><br><br>
+
+                <label>Number of Guests:</label><br>
+                <input type="number" min="1" value="1"><br><br>
+
+                <label>Room Type:</label><br>
+                <select>
+                    <option>-- Select Room Type --</option>
+                    <option>Single Room</option>
+                    <option>Double Room</option>
+                    <option>Deluxe Room</option>
+                    <option>Suite</option>
+                </select><br><br>
+
+                <label>Number of Rooms:</label><br>
+                <input type="number" min="1" value="1">
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Meal Preference</legend>
+
+                <p>Select your meal preference:</p>
+                <input type="radio" name="meal"> Vegetarian<br>
+                <input type="radio" name="meal"> Non-Vegetarian<br>
+                <input type="radio" name="meal"> Vegan
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Airport Pickup</legend>
+
+                <p>Do you require airport pickup?</p>
+                <input type="radio" name="pickup"> Yes
+                <input type="radio" name="pickup"> No
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+
+                <label>Special Requests:</label><br>
+                <textarea rows="5" cols="50" placeholder="Enter any special requests..."></textarea><br><br>
+
+                <label>ID Proof Upload:</label><br>
+                <input type="file"><br><br>
+
+                <input type="checkbox">
+                I agree to the hotel terms and conditions.
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Submit Booking</legend>
+
+                <input type="submit" value="Submit Booking">
+                <input type="reset" value="Reset Form">
+            </fieldset>
+        </form>
+    </main>
+
+    </main>
+
+    <footer>
+        <p>&copy;2026 Grand Core2Dine Hotel. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
